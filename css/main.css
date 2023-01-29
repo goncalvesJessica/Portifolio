@@ -196,6 +196,9 @@ hr {
     background-color: rgb(175, 30, 44);
 }
 
+
+/*foto animaçao*/
+
 img#ilustra {
     position: absolute;
     top: 15vh;
@@ -225,7 +228,7 @@ div#about-container {
     display: block;
     height: auto;
     padding-bottom: 20vh;
-    background-color: rgb(112, 4, 93);
+    background-color: rgb(153, 107, 195);
 }
 
 div#about-container h2 {
@@ -361,7 +364,7 @@ div#skills-container {
 }
 
 
-/* faixa de em breve da galeria */
+/* faixa de em breve do certificado */
 
 .faixa {
     margin-bottom: 100px;
@@ -370,7 +373,7 @@ div#skills-container {
     padding-top: 10px;
     width: 400px;
     height: 50px;
-    background-color: rgb(148, 51, 51);
+    background-color: rgb(153, 107, 195);
     transform: rotate(-27deg);
 }
 
@@ -388,7 +391,7 @@ div#skills-container {
 }
 
 
-/*Galeria*/
+/*Certificados*/
 
 div#gallery-container {
     background-color: black;
@@ -491,7 +494,10 @@ p#year {
     color: rgb(153, 107, 195);
 }
 
-#gleysi {
+
+/*foto perfil*/
+
+#jessica {
     margin-top: 1vh;
     font-size: 3vh;
     text-align: center;
@@ -532,8 +538,10 @@ p#year {
         cursor: pointer;
         transition: 0.2s;
     }
-    /* 
     .square:hover .overlay {
         opacity: 70%;
-    } */
+    }
+    #certificado {
+        width: 110%;
+    }
 }
