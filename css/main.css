@@ -85,7 +85,7 @@ div#home-container h2 {
 
 #home-container .line {
     display: flex;
-    width: 28.5vw;
+    width: 37.5vw;
     margin-top: 20vh;
     margin-left: 4vw;
     font-size: 8vh;
@@ -143,7 +143,7 @@ button.btn-back a {
 }
 
 .typing-animation {
-    animation: blinkCursor 600ms infinite normal, typing 4s steps(40) 1s normal;
+    animation: blinkCursor 600ms infinite normal, typing 4s steps(60) 1s normal;
     /*o steps é para quebrar a animação quadro a quadro*/
 }
 
@@ -265,7 +265,7 @@ h1 {
 
 #about-container img {
     margin-left: 100px;
-    border-radius: 50%;
+    border-radius: 30%;
     height: 50vh;
     width: auto;
     margin-top: 15vh;
@@ -417,14 +417,6 @@ div#gallery-content>div {
     margin: 20px
 }
 
-.nalao {
-    display: absolute;
-    width: 160%;
-    height: auto;
-    z-index: 1;
-    margin-left: -90px;
-}
-
 .overlay {
     text-transform: uppercase;
     position: absolute;
@@ -486,12 +478,6 @@ p#credits {
 p#year {
     padding-top: 2vh;
     padding-bottom: 5vh;
-}
-
-#bia {
-    text-decoration: none;
-    font-weight: bold;
-    color: rgb(153, 107, 195);
 }
 
 
