@@ -148,7 +148,7 @@
         cursor: pointer;
         transition: 0.2s;
     }
-    /* .square:active .overlay {
+    .square:active .overlay {
         opacity: 70%;
-    } */
+    }
 }

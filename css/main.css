@@ -197,15 +197,14 @@ hr {
 }
 
 
-/*foto animaçao*/
+/*foto animaçao// animation-name: move;para mover imagem*/
 
 img#ilustra {
     position: absolute;
     top: 15vh;
     left: 60vw;
-    height: 500px;
+    height: 400px;
     width: auto;
-    animation-name: move;
     animation-duration: 2.5s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
